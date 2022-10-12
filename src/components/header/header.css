@@ -1,0 +1,42 @@
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+
+.btn-login {
+  border: none;
+  background-color: inherit;
+  padding: 3px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 3px 0px;
+  box-shadow: 0 0 0 2px #F5B901;
+  margin-right: 14px;
+}
+
+.btn-login:hover {
+  background-color: #F5B901;
+  color: white;
+}
+
+.btn-signup {
+  background-color: #F5B901;
+  padding: 3px 20px;
+  font-size: 16px;
+  color: #3D3D3D;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 3px 0px;
+}
+
+.btn-signup:hover {
+  background-color: white;
+  box-shadow: 0 0 0 2px #F5B901;
+}
