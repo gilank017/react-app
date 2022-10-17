@@ -5,6 +5,27 @@
   height: 4rem;
 }
 
+.nav-page-list {
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom: 1px solid #0f223a1f;
+}
+
+.nav-route {
+  font-weight: bold;
+  font-size: 16px;
+  color: #3d3d3d;
+}
+
+.nav-route:hover {
+  color: #F5B901;
+}
+
 .btn-login {
   border: none;
   background-color: inherit;
